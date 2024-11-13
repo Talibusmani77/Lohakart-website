@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LohaKart Products</title>
+    <link rel="icon" type="image/x-icon" href="assets/logo.png">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="assets/logo.png" alt="Metal Ispat Logo"></a>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#Service_section">Services</a>
+                <div class="services-dropdown">
+                    <p class="core-serv">Core Services</p>
+                    <a href="products.html">
+                        <img src="assets/buying.svg" alt="">Buying</a>
+                    <a href="services.html">
+                        <img src="assets/selling.svg" alt="">Selling</a>
+                    <a href="services.html">
+                        <img src="assets/metal fabrication.svg" alt="">Metal Fabrication</a>
+                    <a href="services.html">
+                        <img src="assets/recycle.svg" alt="">Recycling</a>
+                    <a href="services.html">
+                        <img src="assets/logistics.svg" alt="">Logistics</a>
+                </div>
+            </li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="index.html#Vision_section">Our Vision</a></li>
+            <li><a href="index.html#Project_section">Projects</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+        <button class="cta-button">Brochure</button>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <div class="mobile-nav">
+        <div class="logo">
+            <img src="assets/logo.png" alt="Metal Ispat Logo">
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#services">Services</a>
+                <div class="services-dropdown">
+                    <p class="core-serv">Core Services</p>
+                    <a href="products.html">
+                        <img src="assets/buying.svg" alt="">Buying</a>
+                    <a href="services.html">
+                        <img src="assets/selling.svg" alt="">Selling</a>
+                    <a href="services.html">
+                        <img src="assets/metal fabrication.svg" alt="">Metal Fabrication</a>
+                    <a href="services.html">
+                        <img src="assets/recycle.svg" alt="">Recycling</a>
+                    <a href="services.html">
+                        <img src="assets/logistics.svg" alt="">Logistics</a>
+                </div>
+            </li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="index.html#Vision_section">Our Vision</a></li>
+            <li><a href="index.html#Project_section">Projects</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+        <button class="cta-button">Brochure</button>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Crafting the future with strength and precision.</h5>
+                    <p>Crafting the future with strength and precision. Our commitment to quality ensures every cut is exact and every weld is robust. With a blend of innovation and expertise, we deliver metalwork that stands the test of time, transforming raw materials into reliable solutions.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Where strength meets artistry.</h5>
+                    <p>Experience the fusion of strength and artistry with LOHAKART. Our team of experts is dedicated to crafting metalworks that not only meet your functional needs but also elevate your aesthetic expectations. From intricate designs to robust structures, we turn your ideas into reality with unmatched precision and beauty.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Precision in every cut, strength in every weld.</h5>
+                    <p>Precision in every cut, strength in every weld – LohaKart: Where Excellence Meets Metalwork.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="page-wrapper">
+        <!-- <h1>Add All categories for Quotation</h1> -->
+        
+        <div class="large-text">Streamline ferrous, non-ferrous procurement efficiently.</div>
+        <div class="large-text1">Submit your commodity inquiries and receive immediate quotations</div>
+        
+        <div class="category-section" id="categorySection"></div>
+        <div class="large-text2">Add items to receive optimized quotations and pricing.</div>
+        
+        <div class="container-product">
+            <div class="left-panel">
+                <div class="product-grid" id="productGrid"></div>
+            </div>
+            <div class="right-panel" id="rightPanel">
+                <div class="cart">
+                    <div class="step-indicator">
+                        <span class="step active">Select Products</span>
+                        <span class="step">Enter Details</span>
+                        <span class="step">Confirm</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" id="progressBar"></div>
+                    </div>
+                    <h3>Products Added (<span id="cartCount">0</span>)</h3>
+                    <div id="cartItems"></div>
+                    <button class="next-btn" id="nextBtn">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <footer>
+        <div class="footer-container">
+            <div class="company-info">
+                <div class="logo-bottom">
+                    <img src="assets/logo.png" alt="LohaKart">
+                </div>
+                <p class="main-buss">INDIIUM VENTURES PRIVATE LIMITED</p>
+                  <div class="flex">
+                  <div><img src="assets/location-logo.svg" alt=""></div>
+                  <div>Alacrity Business Center 10th Floor, Levana Cyber Heights, Vibhuti Khand, Gomti Nagar, Lucknow (U.P.) 226010</div>
+                  </div>
+                </p>
+                <p><img src="assets/phone-logo.svg" alt=""> +91-9897947864 </p>
+                <p><img src="assets/mail-logo.svg" alt=""> business@lohakart.com </p>
+                
+            </div>
+            <div class="footer-links">
+                <div class="link-column">
+                  <p><a href="products.html">Buying</a></p>
+                  <p><a href="services.html">Selling</a></p>
+                  <p><a href="services.html">Fabrication</a></p>
+                  <p><a href="services.html">E - Factory</a></p>
+                  <p><a href="services.html">Logistics</a></p>
+                  <p><a href="services.html">Recycling</a></p>
+                </div>
+                <div class="link-column">
+                  <p><a href="products.html">Products</a></p>
+                  <p><a href="about_us.html">About Us</a></p>
+                  <p><a href="career.html">Career</a></p>
+                  <p><a href="contact_us.html">Contact Us</a></p>
+                </div>
+            </div>
+            <div class="join-Lohakart">
+                <h2>Connet with Lohakart</h2>
+                <p>Explore how LohaKart can simplify your business processes, allowing you to concentrate solely on growth and success.</p>
+                <a href="contact_us.html"><button>Contact Us</button></a>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <p>&copy; LohaKart. All Rights Reserved.</p>
+        </div>
+        <a href="https://wa.me/9897947864" class="whatsapp-float" target="_blank">
+            <img src="assets/watsapp-logo.svg" alt="" class="watsapp_img">
+        </a>
+    </footer>
+
+    
+
+    <!-- product js -->
+     <!-- <script src="products.js"></script> -->
+     <script src="products_2.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        
+const categories = [
+    "All",
+    "Mild Steel",
+    "Galvanised Coil",
+    "Stainless Steel",
+    "Copper",
+    "Zinc",
+    "Aluminum"
+];
+
+const products = [
+{ name: "TMT BARS", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "PLATES", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "HR SHEETS", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "CR SHEETS", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "CHANNEL ISMC", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "BEAMS | JOIST", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "ANGLES ISA", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "SHS PIPE", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "RHS PIPE", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "ROUND BARS", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "MS CHEQURED PLATE", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "MS STEEL SCRAP", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
+
+{ name: "GI SHEETS", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Galvanised Coil" },
+
+{ name: "SS SHEETS", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Stainless Steel" },
+{ name: "SS PIPE", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Stainless Steel" },
+{ name: "SS ROD", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Stainless Steel" },
+
+{ name: "COPPER WIRE", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Copper" },
+{ name: "COPPER SHEET", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Copper" },
+{ name: "COPPER TUBE", image:"assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Copper" },
+
+{ name: "ZINC SHEET", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Zinc" },
+{ name: "ZINC INGOT", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Zinc" },
+
+{ name: "ALUMINUM SHEET", image:"assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Aluminum" },
+{ name: "ALUMINUM ROD", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Aluminum" },
+{ name: "ALUMINUM PROFILE", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Aluminum" }
+
+
+];
+
+
+const cart = [];
+let currentStep = 1;
+let currentCategory = "All";
+
+function renderCategories() {
+    const categorySection = document.getElementById('categorySection');
+    categories.forEach(category => {
+        const button = document.createElement('button');
+        button.className = 'category-btn';
+        button.textContent = category;
+        button.onclick = () => filterProducts(category);
+        if (category === currentCategory) {
+            button.classList.add('active');
+        }
+        categorySection.appendChild(button);
+    });
+}
+
+function filterProducts(category) {
+    currentCategory = category;
+    const buttons = document.querySelectorAll('.category-btn');
+    buttons.forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+    renderProducts();
+}
+
+function renderProducts() {
+const grid = document.getElementById('productGrid');
+grid.innerHTML = '';
+products.forEach((product, index) => {
+if (currentCategory === "All" || product.category === currentCategory) {
+    const card = document.createElement('div');
+    card.className = 'product-card';
+    
+    // Add product image
+    const img = document.createElement('img');
+    img.src = product.image; // Use the image path from the product object
+    img.alt = product.name; // Alt text for accessibility
+    img.classList.add('product-image'); // Add a class for styling
+    
+    card.innerHTML = `
+        <p class="card-text2">${product.name}</p>
+        <div class="quantity-control">
+            <div class="quantity-control1">
+                <input type="number" class="quantity-input" id="quantity-${index}" min="0" value="0">
+                <select class="unit-select" id="unit-${index}">
+                    <option value="MT">MT</option>
+                    <option value="Kgs">Kgs</option>
+                </select>
+            </div>
+            <button class="add-btn" onclick="addToCart(${index})">+</button>
+        </div>
+    `;
+
+    // Insert the image at the beginning of the card
+    card.insertBefore(img, card.firstChild);
+    grid.appendChild(card);
+}
+});
+}
+
+
+function addToCart(index) {
+const quantityInput = document.getElementById(`quantity-${index}`);
+const unitSelect = document.getElementById(`unit-${index}`);
+const quantity = parseFloat(quantityInput.value);
+const unit = unitSelect.value;
+
+if (quantity > 0) {
+const product = products[index];
+const existingItem = cart.find(item => item.name === product.name && item.unit === unit);
+if (existingItem) {
+    existingItem.quantity += quantity;
+} else {
+    cart.push({ 
+        name: product.name, 
+        quantity: quantity, 
+        unit: unit, 
+        category: product.category,
+        image: product.image // Make sure to add the image property here
+    });
+}
+quantityInput.value = 0;
+updateCart();
+}
+}
+
+function updateCart() {
+    const cartItems = document.getElementById('cartItems');
+    const cartCount = document.getElementById('cartCount');
+    const nextBtn = document.getElementById('nextBtn');
+    
+    // Clear existing items in the cart display
+    cartItems.innerHTML = '';
+    
+    // Loop through cart items and create the display
+    cart.forEach((item, index) => {
+        const div = document.createElement('div');
+        div.className = 'cart-item';
+        div.innerHTML = `
+            <span>${item.name} (${item.quantity} ${item.unit})</span>
+            <button class="remove-btn" onclick="removeFromCart(${index})">×</button>
+        `;
+        cartItems.appendChild(div); // Append the item to the cart display
+    });
+    
+    // Update the cart count display
+    cartCount.textContent = cart.length;
+
+    // Enable or disable the Next button based on cart contents
+    nextBtn.disabled = cart.length === 0;
+    nextBtn.style.opacity = cart.length === 0 ? '0.5' : '1';
+    nextBtn.style.cursor = cart.length === 0 ? 'not-allowed' : 'pointer';
+}
+
+function removeFromCart(index) {
+    // Remove the item at the specified index
+    cart.splice(index, 1);
+    // Update the cart display
+    updateCart();
+}
+
+// Initialize event listeners once the DOM content is loaded
+document.addEventListener('DOMContentLoaded', () => {
+    const nextBtn = document.getElementById('nextBtn');
+    nextBtn.disabled = true; // Initially disable the Next button
+    nextBtn.style.opacity = '0.5';
+    nextBtn.style.cursor = 'not-allowed';
+
+    nextBtn.addEventListener('click', () => {
+        if (cart.length > 0) {
+            showSelectedProducts(); // Function to show selected products
+            currentStep = 2; // Move to the next step
+            showForm(); // Function to display the form
+        }
+    });
+});
+
+
+// ---------------
+function showSelectedProducts() {
+const grid = document.getElementById('productGrid');
+const categorySection = document.getElementById('categorySection');
+
+// Clear the grid and hide the category section
+grid.innerHTML = '';
+categorySection.style.display = 'none'; // Hide the category section
+
+// Loop through the cart to display selected products with images
+cart.forEach(item => {
+const card = document.createElement('div');
+card.className = 'product-card';
+
+// Create the image element
+const img = document.createElement('img');
+img.src = item.image; // Ensure the image path from the cart item is used
+img.alt = item.name;  // Alt text for accessibility
+img.classList.add('product-image'); // Add a class for styling
+
+// Add the product details, including image and quantity
+const productDetails = `
+    <p class="card-text2">${item.name}</p>
+    <p class="card-text2">Quantity: ${item.quantity} ${item.unit}</p>
+`;
+
+card.appendChild(img); // Append the image to the card
+card.innerHTML += productDetails; // Append the product details after the image
+grid.appendChild(card); // Append the card to the grid
+});
+}
+
+
+
+function submitForm() {
+    const company = document.getElementById('company').value;
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const phone = document.getElementById('phone').value;
+    const message = document.getElementById('message').value;
+
+    // Check if required fields are filled
+    if (!company || !name || !email || !phone) {
+        alert("Please fill out all required fields.");
+        return;
+    }
+
+    const whatsappMessage = encodeURIComponent(`
+Name: ${name}
+Email: ${email}
+Phone: ${phone}
+Company: ${company}
+Message: ${message}
+
+Selected Products:-
+${cart.map(item => `${item.name} (${item.quantity} ${item.unit})`).join('\n')}
+    `);
+
+    const whatsappNumber = '919897947864'; // Replace with your WhatsApp number
+    const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+
+    window.open(whatsappLink, '_blank');
+
+    currentStep = 3;
+    updateProgressBar();
+    showPopup();
+}
+
+function showPopup() {
+const popup = document.createElement('div');
+    popup.className = 'popup';
+    popup.innerHTML = `
+        <div class="popup-content">
+            <h2>Thank You!</h2>
+            <p>Your quotation request has been sent via WhatsApp. We'll get back to you soon.</p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    `;
+    document.body.appendChild(popup);
+
+// Add styles for the popup
+const style = document.createElement('style');
+style.textContent = `
+.popup {
+    padding-inline: 12px;    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backgsround-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.popup-content {
+    backgsround-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.popup-content h2 {
+    margin-top: 0;
+}
+.popup-content button {
+    backgsround-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+`;
+document.head.appendChild(style);
+}
+
+function closePopup() {
+    const popup = document.querySelector('.popup');
+    if (popup) {
+        popup.remove();
+    }
+    // Reload the page
+    window.location.reload();
+}
+
+
+function updateProgressBar() {
+const progress = document.getElementById('progressBar');
+const steps = document.querySelectorAll('.step');
+const progressPercentage = ((currentStep - 1) / (steps.length - 1)) * 100;
+progress.style.width = `${progressPercentage}%`;
+
+steps.forEach((step, index) => {
+if (index < currentStep) {
+    step.classList.add('active');
+} else {
+    step.classList.remove('active');
+}
+});
+}
+
+function showForm() {
+const rightPanel = document.getElementById('rightPanel');
+rightPanel.innerHTML = `
+<div class="form-container">
+    <div class="step-indicator">
+        <span class="step">Select Products</span>
+        <span class="step active">Enter Details</span>
+        <span class="step">Confirm</span>
+    </div>
+    <div class="progress-bar">
+        <div class="progress" id="progressBar"></div>
+    </div>
+    <h3>Contact Details</h3>
+    <input type="text" id="company" placeholder="Company Name" required>
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="tel" id="phone" placeholder="Phone" required>
+    <textarea id="message" placeholder="Additional Message"></textarea>
+    <h3>Selected Products</h3>
+    <ul id="selectedProducts"></ul>
+    <button onclick="submitForm()">Submit</button>
+</div>
+`;
+const selectedProducts = document.getElementById('selectedProducts');
+cart.forEach(item => {
+const li = document.createElement('li');
+li.textContent = `${item.name} (${item.quantity} ${item.unit})`;
+selectedProducts.appendChild(li);
+});
+updateProgressBar();
+}
+
+document.getElementById('nextBtn').addEventListener('click', () => {
+    showSelectedProducts();
+    currentStep = 2;
+    showForm();
+
+});
+
+
+renderCategories();
+renderProducts();
+
+
+
+    </script>
+
+</body>
+</html>

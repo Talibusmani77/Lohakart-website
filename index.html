@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOHAKART</title>
+    <link rel="icon" type="image/x-icon" href="assets/logo.png">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="assets/logo.png" alt="Metal Ispat Logo"></a>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#Service_section">Services</a>
+                <div class="services-dropdown">
+                    <p class="core-serv">Core Services</p>
+                    <a href="products.html">
+                        <img src="assets/buying.svg" alt="">Buying</a>
+                    <a href="services.html">
+                        <img src="assets/selling.svg" alt="">Selling</a>
+                    <a href="services.html">
+                        <img src="assets/metal fabrication.svg" alt="">Metal Fabrication</a>
+                    <a href="services.html">
+                        <img src="assets/recycle.svg" alt="">Recycling</a>
+                    <a href="services.html">
+                        <img src="assets/logistics.svg" alt="">Logistics</a>
+                </div>
+            </li>
+            <li><a href="#Product_section">Products</a></li>
+            <li><a href="#Vision_section">Our Vision</a></li>
+            <li><a href="#Project_section">Projects</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+        <button class="cta-button">Brochure</button>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <div class="mobile-nav">
+        <div class="logo">
+            <img src="assets/logo.png" alt="Metal Ispat Logo">
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#services">Services</a>
+                <div class="services-dropdown">
+                    <p class="core-serv">Core Services</p>
+                    <a href="products.html">
+                        <img src="assets/buying.svg" alt="">Buying</a>
+                    <a href="services.html">
+                        <img src="assets/selling.svg" alt="">Selling</a>
+                    <a href="services.html">
+                        <img src="assets/metal fabrication.svg" alt="">Metal Fabrication</a>
+                    <a href="services.html">
+                        <img src="assets/recycle.svg" alt="">Recycling</a>
+                    <a href="services.html">
+                        <img src="assets/logistics.svg" alt="">Logistics</a>
+                </div>
+            </li>
+            <li><a href="#Product_section">Products</a></li>
+            <li><a href="#Vision_section">Our Vision</a></li>
+            <li><a href="#Project_section">Projects</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+        <button class="cta-button">Brochure</button>
+    </div>
+
+
+    <div class="carousel">
+      <div class="carousel-slide active" style="background-image: url('assets/Metal Fabrication.jpg');"></div>
+      <div class="carousel-slide" style="background-image: url('assets/Metal Processing.jpg');"></div>
+      <div class="carousel-slide" style="background-image: url('assets/Metal Recycling.jpg');"></div>
+      <div class="carousel-slide" style="background-image: url('assets/Metal Casting.jpg');"></div>
+      <div class="carousel-slide" style="background-image: url('assets/Metal Machining.jpg');"></div>
+      
+      <div class="carousel-text">
+        <span class="static-text-top">Your All-in-One Digital Marketplace, Catering All Your Needs For </span>
+        <span id="typing-text"></span>
+        <span class="static-text-bottom">LOHAKART - Your Trusted Partner in Metal Procurement and Fabrication Solutions.</span>
+      </div>
+      
+      <button class="carousel-btn prev">&#10094;</button>
+      <button class="carousel-btn next">&#10095;</button>
+      <div class="carousel-nav"></div> <!-- Leave this empty, buttons will be created by JS -->
+  </div>
+  
+  <div id="particles-js"></div>
+
+      <div class="container" id="Product_section">
+        <div class="section-title">
+            <h2>Our Categories</h2>
+            <p>Delivering quality metals and fabrication, empowering industries with precision and reliable craftsmanship.</p>
+        </div>
+
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="card-image">
+                            <img src="assets/Ferrous.jpg" alt="AI Solutions">
+                        </div>
+                        <div class="card-content">
+                            <h3>Ferrous</h3>
+                            <p>Mild Steel, Stainless Steel</p>
+                        </div>
+                    </div>
+                    <div class="card-back">
+                        <div class="back-content">
+                            <h4>Ferrous</h4>
+                            <ul class="feature-list">
+                                <li>CRC, GI Coil</li>
+                                <li>HR Plate, HRC</li>
+                                <li>Primary TMT, Round Bar, Secondary TMT, Wire Rod</li>
+                                <li>Angle, Beam, Channel, MS Flats</li>
+                                <li>MS Billets</li>
+                            </ul>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="card-image">
+                            <img src="assets/non_ferrous.jpg" alt="Quantum Tech">
+                        </div>
+                        <div class="card-content">
+                            <h3>Non-Ferrous</h3>
+                            <p>Aluminium, Copper, Zinc, Nickel</p>
+                        </div>
+                    </div>
+                    <div class="card-back">
+                        <div class="back-content">
+                            <h4>Non-Ferrous</h4>
+                            <ul class="feature-list">
+                                <li>Aluminium Wire Rod, Copper Cathode</li>
+                                <li>Copper Wire Rod, Aluminium Alloy Ingot</li>
+                                <li>Aluminium Ingot, Aluminium T/Show Ingot</li>
+                                <li>Lead Ingot</li>
+                                <li>Zinc Ingot</li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="card-image">
+                            <img src="assets/manu_fab.jpg" alt="Cyber Security">
+                        </div>
+                        <div class="card-content">
+                            <h3>Manufacturing & Fabrication</h3>
+                            <p>Industrial Fabrication & Machining.</p>
+                        </div>
+                    </div>
+                    <div class="card-back">
+                        <div class="back-content">
+                            <h4>Manufacturing & Fabrication</h4>
+                            <ul class="feature-list">
+                                <li>Metal Cutting and Shaping</li>
+                                <li>Welding and Joining</li>
+                                <li>CNC Machining</li>
+                                <li>Assembly and Integration</li>
+                                <li>Surface Finishing and Coating</li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="card-image">
+                            <img src="assets/metal_recycle.jpg" alt="Cloud Systems">
+                        </div>
+                        <div class="card-content">
+                            <h3>Metal Recycling</h3>
+                            <p>Steel, Aluminium, Copper</p>
+                        </div>
+                    </div>
+                    <div class="card-back">
+                        <div class="back-content">
+                            <h4>Metal Recycling</h4>
+                            <ul class="feature-list">
+                                <li>Steel Recycling</li>
+                                <li>Aluminum Recycling</li>
+                                <li>Copper Recycling</li>
+                                <li>Lead Recycling</li>
+                                <li>Nickel and Other Rare Metal Recycling</li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="view-more-container">
+          <button class="view-more-button" >
+            <a href="products.html"><span>view more →</span></a>
+           
+          </button>
+        </div>
+    </div>
+
+    <div class="container2">
+      <div class="section-title">
+          <h2>Our Services</h2>
+          <p>We are a dedicated group driven by a shared vision of creating positive change in the world.</p>
+      </div>
+
+      <div class="services-grid">
+          <div class="service-card">
+              <div class="service-icon">
+                  <img src="assets/buying.svg">
+              </div>
+              <h3>Buying / Selling</h3>
+              <p>Conneting industries to quality raw materials for efficiency.</p>
+              
+          </div>
+
+          <div class="service-card">
+              <div class="service-icon">
+                  <img src="assets/processing.svg">
+              </div>
+              <h3>Metal Processing</h3>
+              <p>Shaping metals with precision for innovative future solutions.</p>
+              
+          </div>
+
+          <div class="service-card">
+              <div class="service-icon">
+                  <img src="assets/metal fabrication.svg">
+              </div>
+              <h3>Metal Fabrication</h3>
+              <p>Transforming raw metal into excellence crafting the future with precision.</p>
+              
+          </div>
+
+          <div class="service-card">
+              <div class="service-icon">
+                  <img src="assets/recycle.svg">
+              </div>
+              <h3>Metal Recycling</h3>
+              <p>Reimagining metal waste into valuable resources for a sustainable future.</p>
+              
+          </div>
+
+          <div class="service-card">
+              <div class="service-icon">
+                  <img src="assets/pricing.svg">
+              </div>
+              <h3>Raw Materials Pricing</h3>
+              <p>Transparent pricing for high-quality raw materials you trust.</p>
+              
+          </div>
+
+          <div class="service-card">
+              <div class="service-icon">
+                  <img src="assets/logistics.svg" >
+              </div>
+              <h3>Logistics</h3>
+              <p>Streamlining logistics for seamless delivery and efficiency.</p>
+              
+          </div>
+      </div>
+  </div>
+
+  <section class="vision-section" id="Vision_section">
+    <div class="container-vision">
+      <div class="section-title">
+        <h2>Our Vision and Mission</h2>
+        <p>Forging a Future of Strength and Innovation.</p>
+    </div>
+      <div class="vision-content">
+        <div class="vision-image">
+          <img src="assets/vision-mission.jpg" alt="Team Collaboration">
+        </div>
+        <div class="vision-text">
+          <h3 class="mission">Our Mission</h3>
+          <p class="in-mission">Our mission is to become the foremost provider of digital solutions for the metal supply chain, delivering fulfillment, fabrication, competitive pricing, and solutions. We are dedicated to cultivating lasting relationships with suppliers and clients, driving innovation, and advancing sustainability across all our operations.</p>
+          <h3 class="mission">Our Values</h3>
+          <p class="in-mission">LohaKart's core values center on innovation, customer focus, adaptability, transparency, and robust governance. We prioritize empowering our employees and nurturing a culture of diversity and inclusion. Sustainability is embedded in our business practices, and data-driven insights guide our strategic decisions.</p>
+        </div>
+      </div>
+    </div>
+     </section>
+
+     <div class="container3" id="Project_section">
+      <div class="section-title">
+        <h2>Industries we serve</h2>
+        <p>We cater to a variety of sectors by providing cutting-edge solutions that improve productivity, quality, and scalability across their supply chains, ensuring maximum performance and a competitive edge.</p>
+    </div>
+      <div class="card3s-grid3">
+          
+          <div class="card3-container3" style="animation-delay: 0.1s;">
+              <div class="card3">
+                  <div class="card3-front">
+                      <div class="icon3">🏗️</div>
+                      <h2 class="card3-title3">Infra & Construction</h2>
+                      <p class="card3-description">Supporting construction projects with durable, high-quality metals and components.</p>
+                  </div>
+                  <div class="card3-back">
+                      <img src="assets/infra.jpg" alt="Manufacturing" class="card3-image" />
+                      <div class="card3-back-content">
+                          <h3 class="back-title3">Smart Construction</h3>
+                          <p class="back-description3">Strength and innovation, the backbone of every construction success.</p>
+                          
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          
+          <div class="card3-container3" style="animation-delay: 0.2s;">
+              <div class="card3">
+                  <div class="card3-front">
+                      <div class="icon3">🚗</div>
+                      <h2 class="card3-title3">Automotive & Transportation</h2>
+                      <p class="card3-description">Delivering precision metals to drive progress in automotive and transportation.</p>
+                  </div>
+                  <div class="card3-back">
+                      <img src="assets/transport.jpg" alt="Technology" class="card3-image" />
+                      <div class="card3-back-content">
+                          <h3 class="back-title3">Driving Innovation</h3>
+                          <p class="back-description3">Where reliability meets precision in every automotive and transport project</p>
+                          
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          
+          <div class="card3-container3" style="animation-delay: 0.3s;">
+              <div class="card3">
+                  <div class="card3-front">
+                      <div class="icon3">⚙️</div>
+                      <h2 class="card3-title3">Machinery & Equipment</h2>
+                      <p class="card3-description">Providing robust metals for durable, high-performance machinery and equipment.</p>
+                  </div>
+                  <div class="card3-back">
+                      <img src="assets/machine.jpg" alt="Healthcare" class="card3-image" />
+                      <div class="card3-back-content">
+                          <h3 class="back-title3">Precision Engineering</h3>
+                          <p class="back-description3">Reliability in every component, strength in every machine built.</p>
+                          
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          
+          <div class="card3-container3" style="animation-delay: 0.4s;">
+              <div class="card3">
+                  <div class="card3-front">
+                      <div class="icon3">🌱</div>
+                      <h2 class="card3-title3">Renewable Energy Industries</h2>
+                      <p class="card3-description">Empowering renewable energy with sustainable, precision-crafted metal solutions.</p>
+                  </div>
+                  <div class="card3-back">
+                      <img src="assets/renewable.jpg" alt="Consulting" class="card3-image" />
+                      <div class="card3-back-content">
+                          <h3 class="back-title3">Green Innovation</h3>
+                          <p class="back-description3">Building a sustainable future with metals crafted for renewables.</p>
+                          
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="card3-container3" style="animation-delay: 0.4s;">
+              <div class="card3">
+                  <div class="card3-front">
+                      <div class="icon3">✈️</div>
+                      <h2 class="card3-title3">Defense & Aerospace Industries</h2>
+                      <p class="card3-description">Delivering high-performance metals for the defense and aerospace industries.</p>
+                  </div>
+                  <div class="card3-back">
+                      <img src="assets/airspace.jpg" alt="Consulting" class="card3-image" />
+                      <div class="card3-back-content">
+                          <h3 class="back-title3">Aerospace Solutions</h3>
+                          <p class="back-description3">Your trusted partner in aerospace and defense metal fabrication.</p>
+                          
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+           <div class="card3-container3" style="animation-delay: 0.4s;">
+              <div class="card3">
+                  <div class="card3-front">
+                      <div class="icon3">🛢️</div>
+                      <h2 class="card3-title3">Oil & Gas Industries</h2>
+                      <p class="card3-description">Building stronger energy infrastructure with durable metal solutions.</p>
+                  </div>
+                  <div class="card3-back">
+                      <img src="assets/oil_indus.jpg" alt="Consulting" class="card3-image" />
+                      <div class="card3-back-content">
+                          <h3 class="back-title3">Energy Solutions</h3>
+                          <p class="back-description3">Supplying the oil and gas sector with precision-crafted materials.</p>
+                          
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="card3-container3" style="animation-delay: 0.4s;">
+            <div class="card3">
+                <div class="card3-front">
+                    <div class="icon3">🧼</div>
+                    <h2 class="card3-title3">Consumer Appliances Industries</h2>
+                    <p class="card3-description">Reliable metals that support the most advanced appliance technologies.</p>
+                </div>
+                <div class="card3-back">
+                    <img src="assets/appliances.jpg" alt="Consulting" class="card3-image" />
+                    <div class="card3-back-content">
+                        <h3 class="back-title3">Durable Materials</h3>
+                        <p class="back-description3">Enhancing appliance performance with advanced, reliable materials.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card3-container3" style="animation-delay: 0.4s;">
+          <div class="card3">
+              <div class="card3-front">
+                  <div class="icon3">🏭</div>
+                  <h2 class="card3-title3">Manufacturing and Heavy Industries</h2>
+                  <p class="card3-description">Metals designed for durability and performance in manufacturing and heavy industries.</p>
+              </div>
+              <div class="card3-back">
+                  <img src="assets/heavy.jpg" alt="Consulting" class="card3-image" />
+                  <div class="card3-back-content">
+                      <h3 class="back-title3">Industrial Strength</h3>
+                      <p class="back-description3">Providing high-strength metals for demanding manufacturing applications.</p>
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+  </div>
+
+  <div class="contact_details" id="Contact_section">
+  <div class="container_contact" >
+      <div class="contact-info">
+          <div class="info-box">
+              <div class="icon">📞</div>
+              <h3 class="in_contact">Phone No</h3>
+              <p>+91-9897947864</p>
+              <!-- <p></p> -->
+          </div>
+          <div class="info-box">
+              <div class="icon">✉️</div>
+              <h3 class="in_contact">Email Address</h3>
+              <p>business@lohakart.com</p>
+              <!-- <p>belalahmad999@.com</p> -->
+          </div>
+          <div class="info-box">
+              <div class="icon">📍</div>
+              <h3 class="in_contact">Office Address</h3>
+              <p>Alacrity Business Center</p>
+              <p>10th Floor, Levana Cyber Heights, Vibhuti Khand, Gomti Nagar</p>
+              <p>Lucknow (U.P.) - 226010</p>
+          </div>
+      </div>
+      <div class="contact-form">
+          <h2 class="contact_tag">CONTACT US</h2>
+          <h1  class="contact_tag2">Want To Ask Anything? Send Us A Mail Anytime</h1>
+          <form id="contactForm">
+              <div class="form-row">
+                  <input type="text" id="name" name="name" placeholder="Your Name*" required>
+                  <input type="email" id="email" name="email" placeholder="Email Address*" required>
+              </div>
+              <div class="form-row">
+                  <input type="tel" id="phone" name="phone" placeholder="Phone No">
+                  <input type="text" id="subject" name="subject" placeholder="Subject">
+              </div>
+              <textarea id="message" name="message" placeholder="Message Here*" required></textarea>
+              <button type="submit" class="submit_btn1">Send Mail</button>
+          </form>
+      </div>
+  </div>
+  </div>
+
+  <div class="map_body">
+    <div class="section-title">
+      <h2>We are here</h2>
+  </div>
+
+    <div class="map-container">
+      <iframe
+          style="border:0"
+          loading="lazy"
+          allowfullscreen
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.137000249293!2d81.0080998752816!3d26.867388076674235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be3fb9bdc910b%3A0xe73351fa4ae26408!2sRegus%20-%20Lucknow%2C%20Levana%20Cyber%20Height%20Gomti%20Nagar!5e0!3m2!1sen!2sin!4v1723620042847!5m2!1sen!2sin" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+  </div>
+</main>
+  </div>
+
+  
+  <footer>
+    <div class="footer-container">
+        <div class="company-info">
+            <div class="logo-bottom">
+                <img src="assets/logo.png" alt="LohaKart">
+            </div>
+            <p class="main-buss">INDIIUM VENTURES PRIVATE LIMITED</p>
+              <div class="flex">
+              <div><img src="assets/location-logo.svg" alt=""></div>
+              <div>Alacrity Business Center 10th Floor, Levana Cyber Heights, Vibhuti Khand, Gomti Nagar, Lucknow (U.P.) 226010</div>
+              </div>
+            </p>
+            <p><img src="assets/phone-logo.svg" alt=""> +91 9897947864 </p>
+            <p><img src="assets/mail-logo.svg" alt=""> business@lohakart.com </p>
+            
+        </div>
+        <div class="footer-links">
+            <div class="link-column">
+              <p><a href="products.html">Buying</a></p>
+              <p><a href="services.html">Selling</a></p>
+              <p><a href="services.html">Fabrication</a></p>
+              <p><a href="services.html">E - Factory</a></p>
+              <p><a href="services.html">Logistics</a></p>
+              <p><a href="services.html">Recycling</a></p>
+            </div>
+            <div class="link-column">
+              <p><a href="products.html">Products</a></p>
+              <p><a href="about_us.html">About Us</a></p>
+              <p><a href="career.html">Career</a></p>
+              <p><a href="contact_us.html">Contact Us</a></p>
+            </div>
+        </div>
+        <div class="join-Lohakart">
+            <h2>Connet with Lohakart</h2>
+            <p>Explore how LohaKart can simplify your business processes, allowing you to concentrate solely on growth and success.</p>
+            <a href="contact_us.html"><button>Contact Us</button></a>
+        </div>
+    </div>
+    <div class="bottom-bar">
+        <p>&copy; LohaKart. All Rights Reserved.</p>
+    </div>
+    <a href="https://wa.me/9897947864" class="whatsapp-float" target="_blank">
+        <img src="assets/watsapp-logo.svg" alt="" class="watsapp_img">
+    </a>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- ------------ -->
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+    <!-- <script src="animation.js"></script> -->
+    <script src="carousal.js"></script>
+
+</body>
+</html>
