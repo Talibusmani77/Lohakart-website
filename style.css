@@ -487,7 +487,6 @@ dl, ol, ul {
 }
 
 /* categories--- */
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -497,7 +496,7 @@ dl, ol, ul {
 .section-title {
   text-align: center;
   margin-bottom: 2rem;
-    margin-top: 4rem;
+  margin-top: 4rem;
   position: relative;
 }
 
@@ -506,13 +505,11 @@ dl, ol, ul {
   color: #be1800;
   font-weight: 700;
   margin-bottom: 1rem;
-  font-weight: 700;
   position: relative;
   display: inline-block;
-  animation: titlePulse 2s infinite;
 }
 
-.section-title p{
+.section-title p {
   margin-top: 10px;
   font-size: 20px;
   font-weight: 600;
@@ -526,49 +523,70 @@ dl, ol, ul {
   padding: 1rem;
 }
 
-/* Card Flip Container */
+/* New Card Styling */
 .card {
-  perspective: 1000px;
+  border: none;
+  position: relative;
   height: 400px;
-  border: none !important;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.162);
+  background: #ffffff;
 }
 
 .card-inner {
   position: relative;
   width: 100%;
   height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-  cursor: pointer;
 }
 
-.card:hover .card-inner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
 .card-front, .card-back {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  backface-visibility: hidden;
-  border-radius: 20px;
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.162);
-  background: #ffffff;
-  overflow: hidden;
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-/* Front Side Styling */
-.card-front {
-  background: #ffffff;
+.card-back {
+  opacity: 0;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  transform: translateY(100%);
+}
+
+/* New hover effect */
+.card:hover .card-front {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+
+.card:hover .card-back {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* For touch devices */
+@media (hover: none) {
+  .card {
+    cursor: pointer;
+  }
+  
+  .card.active .card-front {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  
+  .card.active .card-back {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .card-image {
   width: 100%;
   height: 270px;
   overflow: hidden;
-  position: relative;
 }
 
 .card-image img {
@@ -579,9 +597,7 @@ dl, ol, ul {
 
 .card-content {
   padding: 1.2rem;
-  position: relative;
   background: #ffffff;
-  z-index: 1;
 }
 
 .card-content h3 {
@@ -596,45 +612,30 @@ dl, ol, ul {
 .card-content h3::after {
   content: '';
   position: absolute;
-  /* Center the underline */
   left: 50%;
   transform: translateX(-50%);
   bottom: 0;
   width: 40px;
   height: 2px;
   background: linear-gradient(90deg, #3b82f6, #2563eb);
-  transition: width 0.3s ease; /* Add smooth transition for width changes */
-}
-
-.card-content ::after{
-  display: none;
-}
-
-.card-front:hover .card-content h3::after {
-  width: 80px;
+  transition: width 0.3s ease;
 }
 
 .card-content p {
+  text-align: center;  
   color: #666;
   line-height: 1.6;
   font-size: 0.95rem;
 }
 
-/* Back Side Styling */
-.card-back {
-  background: linear-gradient(135deg, #3b82f6, #2563eb);
-  transform: rotateY(180deg);
+/* Back content styling */
+.back-content {
+  padding: 2rem;
+  color: white;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 2rem;
-  color: white;
-}
-
-.back-content {
-  text-align: left;
-  width: 100%;
 }
 
 .back-content h4 {
@@ -661,28 +662,25 @@ dl, ol, ul {
 }
 
 /* Responsive Design */
-@media (max-width: 1024px) {
-  .cards-grid {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 1.5rem;
-  }
-}
-
 @media (max-width: 768px) {
   .cards-grid {
-      grid-template-columns: 1fr;
-      gap: 2rem;
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
 
   .section-title h2 {
-      font-size: 2rem;
+    font-size: 2rem;
   }
 
   .section-title p {
     font-size: 16px;
+  }
+  
+  .card {
+    height: auto;
+    min-height: 400px;
+  }
 }
-}
-
 
 /*services-----  */
 
