@@ -606,6 +606,10 @@ dl, ol, ul {
   transition: width 0.3s ease; /* Add smooth transition for width changes */
 }
 
+.card-content ::after{
+  display: none;
+}
+
 .card-front:hover .card-content h3::after {
   width: 80px;
 }
@@ -657,6 +661,13 @@ dl, ol, ul {
 }
 
 /* Responsive Design */
+@media (max-width: 1024px) {
+  .cards-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+  }
+}
+
 @media (max-width: 768px) {
   .cards-grid {
       grid-template-columns: 1fr;
