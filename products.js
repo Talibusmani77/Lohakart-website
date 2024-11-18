@@ -241,7 +241,7 @@ Selected Products:-
 ${cart.map(item => `${item.name} (${item.quantity} ${item.unit})`).join('\n')}
     `);
 
-    const whatsappNumber = '919897947864'; // Replace with your WhatsApp number
+    const whatsappNumber = '919580002078'; // Replace with your WhatsApp number
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
     window.open(whatsappLink, '_blank');
