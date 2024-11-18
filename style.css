@@ -278,7 +278,6 @@ dl, ol, ul {
 .carousel-text .static-text-bottom,
 #typing-text {
   font-size: 1.8vw;
-  white-space: nowrap; /* Prevents text wrapping */
 }
 
 .carousel-text .static-text-top {
@@ -1176,6 +1175,7 @@ textarea {
   .contact_tag{
     font-weight: 600;
   }
+
 }
 /* ------------- */
 
@@ -1205,11 +1205,4 @@ textarea {
 iframe {
   display: block;
 }
-/* ---------- */
-/* ---------------- */
-
-
-/* -------- */
-
-
 
