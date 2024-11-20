@@ -166,16 +166,9 @@ h1 {
     border-radius: 3px;
 }
 
-.quantity-input ,input, textarea {
+.quantity-input, input, textarea {
     margin-bottom: 0px ;
     color: black;
-}
-
-.unit-select {
-    padding: 5px;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    margin-left: 4px;
 }
 
 .add-btn {
