@@ -171,6 +171,14 @@ h1 {
     color: black;
 }
 
+.unit-select{
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: black;
+}
+
 .add-btn {
     background-color: #333;
     color: #fff;
@@ -224,6 +232,7 @@ h1 {
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    color: black;
 }
 
 .form-container button {

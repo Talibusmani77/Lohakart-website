@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 (function() {
-    emailjs.init("qdhJoAGgx1_rqzZBF");
+    emailjs.init("sj3tQI5Mfod-RFkvV");
 })();
 
 document.getElementById('contactFormm').addEventListener('submit', function(event) {
@@ -46,7 +46,7 @@ document.getElementById('contactFormm').addEventListener('submit', function(even
     const mobile = document.getElementById('mobile').value;
     const message = document.getElementById('message').value;
 
-    emailjs.send("service_5don2am", "template_s4d12sp", {
+    emailjs.send("service_stvggpu", "template_ysbxo29", {
         from_name: name,
         from_email: email,
         phone: mobile,

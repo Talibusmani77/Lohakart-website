@@ -10,10 +10,10 @@ const categories = [
 ];
 
 const products = [
-{ name: "TMT BARS", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
-{ name: "PLATES", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
-{ name: "HR SHEETS", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
-{ name: "CR SHEETS", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "TMT BARS", image: "assets/TMT_bar2.jpg", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "PLATES", image: "assets/plates2.jpg", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "HR SHEETS", image: "assets/hr_sheets.png", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "CR SHEETS", image: "assets/cr_sheets.png", quantity: 0, unit: "MT", category: "Mild Steel" },
 { name: "CHANNEL ISMC", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
 { name: "BEAMS | JOIST", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
 { name: "ANGLES ISA", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },

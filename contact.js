@@ -3,7 +3,7 @@
 
         (function() {
     // Initialize EmailJS with your user ID
-    emailjs.init("qdhJoAGgx1_rqzZBF");
+    emailjs.init("sj3tQI5Mfod-RFkvV");
 })();
 
 
@@ -19,7 +19,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     const message = document.getElementById('message').value;
 
     // Send email using EmailJS
-    emailjs.send("service_5don2am", "template_s4d12sp", {
+    emailjs.send("service_stvggpu", "template_ysbxo29", {
         from_name: name,
         from_email: email,
         phone: phone,
