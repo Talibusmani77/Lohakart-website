@@ -110,7 +110,6 @@ emailjs.init("qdhJoAGgx1_rqzZBF"); // Replace with your actual EmailJS user ID
 document.addEventListener('DOMContentLoaded', function() {
 const dynamicText = document.getElementById('dynamic-text'); // Updated to target the new class
 const texts = [
-"Selling",
 "Metal Fabrication",
 "E-Factory",
 "Recycling",

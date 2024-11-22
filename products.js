@@ -10,35 +10,34 @@ const categories = [
 ];
 
 const products = [
-{ name: "TMT BARS", image: "assets/TMT_bar2.jpg", quantity: 0, unit: "MT", category: "Mild Steel" },
-{ name: "PLATES", image: "assets/plates2.jpg", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "TMT BARS", image: "assets/tmtbar.jpg", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "PLATES", image: "assets/plates.jpg", quantity: 0, unit: "MT", category: "Mild Steel" },
 { name: "HR SHEETS", image: "assets/hr_sheets.png", quantity: 0, unit: "MT", category: "Mild Steel" },
 { name: "CR SHEETS", image: "assets/cr_sheets.png", quantity: 0, unit: "MT", category: "Mild Steel" },
-{ name: "CHANNEL ISMC", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
-{ name: "BEAMS | JOIST", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
-{ name: "ANGLES ISA", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
-{ name: "SHS PIPE", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
-{ name: "RHS PIPE", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
-{ name: "ROUND BARS", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
-{ name: "MS CHEQURED PLATE", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
-{ name: "MS STEEL SCRAP", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "CHANNEL ISMC", image: "assets/channel.png", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "BEAMS | JOIST", image: "assets/beams.png", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "ANGLES ISA", image: "assets/Isa_angles.jpg", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "ROUND | SQUARE PIPE", image: "assets/rhs_pipe.jpg", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "ROUND BARS", image: "assets/round_bars.png", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "MS CHEQURED PLATE", image: "assets/ms_chaq.jpg", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "MS STEEL SCRAP", image: "assets/ms_scrap.png", quantity: 0, unit: "MT", category: "Mild Steel" },
 
-{ name: "GI SHEETS", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Galvanised Coil" },
+{ name: "GI SHEETS", image: "assets/Gi_sheets.jpg", quantity: 0, unit: "MT", category: "Galvanised Coil" },
 
-{ name: "SS SHEETS", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Stainless Steel" },
-{ name: "SS PIPE", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Stainless Steel" },
-{ name: "SS ROD", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Stainless Steel" },
+{ name: "SS SHEETS", image: "assets/ss_sheets.jpg", quantity: 0, unit: "MT", category: "Stainless Steel" },
+{ name: "SS PIPE", image: "assets/ss_pipe.jpg", quantity: 0, unit: "MT", category: "Stainless Steel" },
+{ name: "SS ROD", image: "assets/ss_rod.jpg", quantity: 0, unit: "MT", category: "Stainless Steel" },
 
-{ name: "COPPER WIRE", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Copper" },
-{ name: "COPPER SHEET", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Copper" },
-{ name: "COPPER TUBE", image:"assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Copper" },
+{ name: "COPPER WIRE", image: "assets/copper_wire.jpg", quantity: 0, unit: "MT", category: "Copper" },
+{ name: "COPPER SHEET", image: "assets/copper_sheets.jpg", quantity: 0, unit: "MT", category: "Copper" },
+{ name: "COPPER TUBE", image:"assets/copper_tube.jpg", quantity: 0, unit: "MT", category: "Copper" },
 
-{ name: "ZINC SHEET", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Zinc" },
-{ name: "ZINC INGOT", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Zinc" },
+{ name: "ZINC SHEET", image: "assets/zinc_sheets.jpg", quantity: 0, unit: "MT", category: "Zinc" },
+{ name: "ZINC INGOT", image: "assets/zinc_ingot.jpg", quantity: 0, unit: "MT", category: "Zinc" },
 
-{ name: "ALUMINUM SHEET", image:"assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Aluminum" },
-{ name: "ALUMINUM ROD", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Aluminum" },
-{ name: "ALUMINUM PROFILE", image: "assets/TMT_bar.png", quantity: 0, unit: "MT", category: "Aluminum" }
+{ name: "ALUMINUM SHEET", image:"assets/aluminium_sheets.jpg", quantity: 0, unit: "MT", category: "Aluminum" },
+{ name: "ALUMINUM ROD", image: "assets/aluminium_rods.jpg", quantity: 0, unit: "MT", category: "Aluminum" },
+{ name: "ALUMINUM PROFILE", image: "assets/aluminium_profile.jpg", quantity: 0, unit: "MT", category: "Aluminum" }
 
 
 ];
