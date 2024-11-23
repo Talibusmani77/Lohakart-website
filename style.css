@@ -103,16 +103,20 @@ dl, ol, ul {
   display: block;
 }
 .cta-button {
-  background-color: #005081;
-  font-size: 18px;
-  height: 50px;
-  width: 130px;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      background-color: #005081; /* Updated background color */
+      font-size: 18px; /* Increased font size */
+      height: 50px; /* Set height */
+      width: 130px; /* Set width */
+      color: white; /* Text color */
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
 }
 .cta-button:hover {
   background-color: #be1800;
