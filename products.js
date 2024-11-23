@@ -22,7 +22,7 @@ const products = [
 { name: "MS CHEQURED PLATE", image: "assets/ms_chaq.jpg", quantity: 0, unit: "MT", category: "Mild Steel" },
 { name: "MS STEEL SCRAP", image: "assets/ms_scrap.png", quantity: 0, unit: "MT", category: "Mild Steel" },
 
-{ name: "GI SHEETS", image: "assets/cr_sheets.png", quantity: 0, unit: "MT", category: "Galvanised Coil" },
+{ name: "GI SHEETS", image: "assets/gi_sheets.png", quantity: 0, unit: "MT", category: "Galvanised Coil" },
 
 { name: "SS SHEETS", image: "assets/ss_sheets.jpg", quantity: 0, unit: "MT", category: "Stainless Steel" },
 { name: "SS PIPE", image: "assets/ss_pipe.jpg", quantity: 0, unit: "MT", category: "Stainless Steel" },
