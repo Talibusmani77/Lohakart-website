@@ -382,6 +382,14 @@ h1 {
     .product-card {
         padding: 8px;
     }
+
+    .unit-select{
+        width: 63px;
+        padding: 5px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        color: black;
+    }
 }
 
 @media (max-width: 480px) {

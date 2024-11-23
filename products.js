@@ -12,8 +12,8 @@ const categories = [
 const products = [
 { name: "TMT BARS", image: "assets/tmtbar.jpg", quantity: 0, unit: "MT", category: "Mild Steel" },
 { name: "PLATES", image: "assets/plates.jpg", quantity: 0, unit: "MT", category: "Mild Steel" },
-{ name: "HR SHEETS", image: "assets/hr_sheets.png", quantity: 0, unit: "MT", category: "Mild Steel" },
-{ name: "CR SHEETS", image: "assets/cr_sheets.png", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "HR SHEETS", image: "assets/hr1_sheets.jpg", quantity: 0, unit: "MT", category: "Mild Steel" },
+{ name: "CR SHEETS", image: "assets/cr1_sheets.jpg", quantity: 0, unit: "MT", category: "Mild Steel" },
 { name: "CHANNEL ISMC", image: "assets/channel.png", quantity: 0, unit: "MT", category: "Mild Steel" },
 { name: "BEAMS | JOIST", image: "assets/beams.png", quantity: 0, unit: "MT", category: "Mild Steel" },
 { name: "ANGLES ISA", image: "assets/Isa_angles.jpg", quantity: 0, unit: "MT", category: "Mild Steel" },
@@ -22,7 +22,7 @@ const products = [
 { name: "MS CHEQURED PLATE", image: "assets/ms_chaq.jpg", quantity: 0, unit: "MT", category: "Mild Steel" },
 { name: "MS STEEL SCRAP", image: "assets/ms_scrap.png", quantity: 0, unit: "MT", category: "Mild Steel" },
 
-{ name: "GI SHEETS", image: "assets/Gi_sheets.jpg", quantity: 0, unit: "MT", category: "Galvanised Coil" },
+{ name: "GI SHEETS", image: "assets/cr_sheets.png", quantity: 0, unit: "MT", category: "Galvanised Coil" },
 
 { name: "SS SHEETS", image: "assets/ss_sheets.jpg", quantity: 0, unit: "MT", category: "Stainless Steel" },
 { name: "SS PIPE", image: "assets/ss_pipe.jpg", quantity: 0, unit: "MT", category: "Stainless Steel" },
