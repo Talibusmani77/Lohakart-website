@@ -73,20 +73,3 @@ type();
 
 
 // ----------
-
- // Touch device handling
- if ('ontouchstart' in window) {
-        document.querySelectorAll('.card3').forEach(card3 => {
-            card3.addEventListener('click', function() {
-                this.classList.toggle('flipped');
-            });
-        });
-    }
-
-    // Animation delay for card3s
-    document.querySelectorAll('.card3-container3').forEach((card3, index) => {
-        card3.style.animationDelay = `${index * 0.1}s`;
-    });
-
-
-    // --------------

@@ -16,6 +16,10 @@ body {
   overflow-x: hidden;
 }
 
+.fact-image {
+  width: 20px;
+  height: 20px;
+}
 .navbar {
   position: sticky;
   top: 0;
@@ -205,6 +209,7 @@ dl, ol, ul {
   .mobile-nav .cta-button {
       display: block;
       margin-top: 20px;
+      margin-left: 40px;
   }
 }
 
