@@ -839,6 +839,33 @@ transform:translateY(-10px);
 box-shadow:0 10px 25px rgba(0,0,0,0.2)
 }
 
+.view-more-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  text-decoration: none; /* Remove default link underline */
+}
+
+.view-more-link i {
+  transition: transform 0.2s;
+}
+
+.view-more-link:hover i {
+  transform: translateX(4px);
+}
+
+.service-card:hover .view-more-link{
+  background:#f33
+}
+
 @media (max-width: 1024px) {
 .services-grid {
 grid-template-columns:repeat(2,1fr)
