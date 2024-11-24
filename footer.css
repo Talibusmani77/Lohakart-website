@@ -80,7 +80,7 @@ footer::before {
   
   .join-Lohakart {
     background-color: #be1800;
-    height: 220px;
+    height: fit-content;
     padding: 1rem;
     border-radius: 10px;
   }

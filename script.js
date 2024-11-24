@@ -1,27 +1,38 @@
+document.addEventListener('DOMContentLoaded', function() {
+  const hamburger = document.querySelector('.hamburger');
+  const mobileNav = document.querySelector('.mobile-nav');
+  const body = document.body;
+  let isOpen = false;
 
-// hamburger
+  function toggleMobileNav() {
+      hamburger.classList.toggle('open');
+      mobileNav.classList.toggle('open');
+      isOpen = !isOpen;
+      
+      if (isOpen) {
+          body.style.overflow = 'hidden';
+          hamburger.style.transform = 'rotate(90deg)';
+      } else {
+          body.style.overflow = '';
+          hamburger.style.transform = 'rotate(0deg)';
+      }
+  }
 
-const hamburger = document.querySelector('.hamburger');
-const mobileNav = document.querySelector('.mobile-nav');
+  hamburger.addEventListener('click', toggleMobileNav);
 
-hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('open');
-    mobileNav.classList.toggle('open');
+  // Close mobile nav when clicking outside
+  document.addEventListener('click', function(event) {
+      const isClickInside = mobileNav.contains(event.target) || hamburger.contains(event.target);
+      
+      if (!isClickInside && mobileNav.classList.contains('open')) {
+          toggleMobileNav();
+      }
+  });
+
+  // Handle window resize
+  window.addEventListener('resize', function() {
+      if (window.innerWidth > 768 && mobileNav.classList.contains('open')) {
+          toggleMobileNav();
+      }
+  });
 });
-
-// Rotate hamburger when opened
-let isOpen = false;
-hamburger.addEventListener('click', () => {
-    if (!isOpen) {
-        hamburger.style.transform = 'rotate(90deg)';
-    } else {
-        hamburger.style.transform = 'rotate(0deg)';
-    }
-    isOpen = !isOpen;
-});
-
-
-
-
-
-
